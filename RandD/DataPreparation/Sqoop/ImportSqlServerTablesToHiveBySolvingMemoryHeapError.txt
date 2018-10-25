@@ -1,0 +1,8 @@
+sudo sqoop import -Dmapreduce.map.memory.mb=1024 -Dmapreduce.map.java.opts=-Xmx7200m -Dmapreduce.task.io.sort.mb=2400 -m 20  --connect "jdbc:sqlserver://10.1.1.157:1433;databaseName=AdhaCbaDW_V2;username=sa;password=Inseyab@123;" --table Dim_Application --compression-codec=snappy --as-parquetfile  --warehouse-dir=/user/hive/adha_db --hive-import
+
+
+
+
+
+use m 4 as default
+if still error occur increase to check if it is resolved

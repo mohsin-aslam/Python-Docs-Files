@@ -1,0 +1,6 @@
+List all databases:
+sudo sqoop list-databases 
+--connect "jdbc:sqlserver://10.1.1.157:1433;username=sa;password=Inseyab@123"
+
+List all tables in a certain DB:
+sudo sqoop list-tables --connect 'jdbc:sqlserver://10.1.1.157;database=db_name' --username sa --password Inseyab@123

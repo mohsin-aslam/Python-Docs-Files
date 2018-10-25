@@ -1,0 +1,1 @@
+sudo hadoop fs -rm /user/hive/warehouse/Password/.metadata/schema.avsc

@@ -1,0 +1,3 @@
+Importing to hive
+
+sudo sqoop import  -m 1  --connect "jdbc:sqlserver://10.1.1.157:1433;databaseName=AdventureWorks2012;username=sa;password=Inseyab@123;"--compression-codec=snappy --as-parquetfile  --warehouse-dir=/user/hive/warehouse  --hive-import --table="UnitMeasure" -- --schema Production

@@ -1,0 +1,16 @@
+install python 3.5 :
+follow this http://tecadmin.net/install-python-3-5-on-centos/
+
+make sure pip3 is installed
+Check by: pip3.5 -V
+
+sudo pip3.5 install pandas
+
+su // admin rights superuser
+export PYSPARK_PYTHON=python3.5.0
+export PYSPARK_DRIVER_PYTHON=python3.5
+
+then run pyspark
+check pyspark is using 3.5.x version of python
+
+import pandas as pd to verify pandas is imported in pyspark 

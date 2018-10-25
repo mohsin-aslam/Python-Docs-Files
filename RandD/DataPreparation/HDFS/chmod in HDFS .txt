@@ -1,0 +1,1 @@
+sudo hadoop fs -chmod -R 777 /user/hive/warehouse/Password

@@ -1,0 +1,1 @@
+hadoop fs -put /home/cloudera/Documents/prepro.csv /user/cloudera

@@ -1,0 +1,1 @@
+sudo sqoop import  -m 1  --connect "jdbc:sqlserver://10.1.1.157:1433;databaseName=TextAnalytic;username=sa;password=Inseyab@123;" --table headlines  --compression-codec=snappy --as-parquetfile  --warehouse-dir=/user/hive/warehouse --hive-import
